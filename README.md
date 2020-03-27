@@ -9,3 +9,8 @@ This is an application made to learn about reactJS with socket.io
 #### Access
 
     http://localhost:3001
+
+
+#### Heroku
+
+    https://twitter-frontend-clone.herokuapp.com/
