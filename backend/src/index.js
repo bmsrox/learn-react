@@ -8,7 +8,8 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect('mongodb://bruxz:bruxz23@ds119810.mlab.com:19810/goweek-backend', {
-    useNewUrlParser: true //informa que esta usando novo formato de conexao
+    useNewUrlParser: true, //informa que esta usando novo formato de conexao
+    useUnifiedTopology: true
 });
 
 //middleware para deixar o socket disponivel em toda aplicação
